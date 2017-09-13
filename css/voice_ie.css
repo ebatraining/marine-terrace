@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px){
+
+main{
+  display: block;
+}
+#nami{
+  display: none;
+}
+
+/* js hover */
+.inner-box01 a:hover{
+  color: #fff;
+  background-color: #01788a;
+  border: 1px solid #fff;
+}
+
+
+.voice-01{
+  position: relative;
+  top: 100px;
+  width: 100%;
+  padding: 0;
+}
+.inner{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 8% 2% 5%;
+}
+.inner img{
+  width: 34%;
+  padding: 2%;
+}
+.inner-box01{
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 8% 2% 2%;
+  background: url('../images/back_ie.png') repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.inner-box01 img{
+  position: absolute;
+  width: 4%;
+  top: -4%;
+  right: 3%;
+  z-index: 99;
+}
+.inner-box01 ul{
+  display: block;
+  width: 85%;
+  padding: 6% 0 6% 2%;
+}
+.inner-box01 li{
+  list-style-type: none;
+  line-height: 2.2;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+.li-text{
+  border-bottom: 1px solid #b2dfdb;
+  font-size: 100%;
+  font-weight: lighter;
+}
+.detail{
+  display: inline;
+  font-size: 80%;
+  padding-right: 3%;
+}
+
+.inner-box01 a{
+  font-size: 60%;
+  width: 20%;
+  text-align: center;
+  padding: 1%;
+  margin: 6% 0 6% 2%;
+  color: #01788a;
+  border: 1px solid #01788a;
+  transition: all  0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+
+
+}

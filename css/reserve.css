@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px){
+
+/* js hover */
+main{
+  display: none;
+}
+
+.inner-box a:hover{
+  color: #fff;
+  background-color: #01788a;
+  border: 1px solid #01788a;
+}
+.text-box a:hover{
+  opacity: 0.6;
+}
+.reserv a:hover{
+  color: #01788a;
+  background-color: #fff;
+  border: 1px solid #01788a;
+}
+
+.sp-js-morphing{
+  display: none;
+}
+
+.js-morphing{
+  float: left;
+}
+.js-morphing img{
+  display: block;
+  width: 280px;
+  margin: 0 auto;
+}
+
+
+.res-01{
+  position: relative;
+  top: 100px;
+  max-width: 800px;
+  margin: 10% auto;
+}
+
+.contents-title{
+  position: absolute;
+  left: 46%;
+  top: -22%;
+  z-index: 98;
+  width: 6%;
+}
+.inner-box{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 8% 2% 2%;
+  background: url('../images/contents01-back2.png') no-repeat left top;
+  background-size: cover;
+  z-index: 1;
+  overflow: hidden;
+}
+.inner-box a{
+  transition: all  0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.circle{
+  width: 34%;
+  margin: 2%;
+}
+.box{
+  width: 56%;
+  padding: 2%;
+  float: right;
+  text-align: left;
+}
+.box p{
+  font-size: 90%;
+  line-height: 1.4;
+  font-weight: lighter;
+}
+.box span{
+  color: #b2dfdb;
+  padding: 0 1%;
+}
+.box a{
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 4%;
+  font-weight: bold;
+}
+.reserv a{
+  display: block;
+  background-color: #01788a;
+  color: #fff;
+  border: 1px solid #01788a;
+}
+.to-link{
+  width: 45%;
+  float: left;
+  font-size: 90%;
+  border: 1px solid #b2dfdb;
+  color: #b2dfdb;
+}
+.to-link2{
+  float: right;
+}
+
+.res-02{
+  position: relative;
+  top: 100px;
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 0;
+}
+.inner{
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.text-box{
+  overflow: hidden;
+  margin-top: 10%;
+  background: url('../images/contents01-back2.png') no-repeat left top;
+  background-size: cover;
+  padding: 5%;
+}
+.text-box h3{
+  font-size: 200%;
+}
+.text-box p{
+  padding-bottom: 2%;
+  border-bottom: 1px solid #b2dfdb;
+}
+.text-box img{
+  display: block;
+  float: left;
+  width: 15%;
+  margin-right: 5%;
+}
+.text-box a{
+  display: block;
+  transition: all  0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.text-box ul{
+  width: 100%;
+  display: block;
+  padding: 0;
+}
+.text-box li{
+  list-style-type: none;
+  display: inline;
+  font-size: 140%;
+}
+.li-title{
+  padding: 0.5% 2%;
+  border: 1px solid #01788a;
+  line-height: 2;
+  letter-spacing: 5px;
+  text-align: center;
+}
+.number{
+  padding-left: 2%;
+  letter-spacing: 5px;
+}
+.number a{
+  display: inline;
+  letter-spacing: 5px;
+  color: #01788a;
+}
+.caution{
+  padding: 0 5% 10% 5%;
+}
+.caution span{
+  color: #b2dfdb;
+  padding: 0 1%;
+}
+
+}

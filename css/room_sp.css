@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+@media screen and (max-width:767px){
+
+main{
+  display: none;
+}
+.js-morphing{
+  display: none;
+}
+.sp-js-morphing{
+  display: block;
+  width: 280px;
+  margin: 0 auto;
+}
+.sp-js-morphing img{
+  width: 280px;
+  height: 280px;
+}
+.room-img span{
+  display: none;
+}
+.textbox{
+  display: none;
+}
+.sp-textbox{
+  clear: both;
+  padding: 2% 0;
+}
+.sp-textbox ul{
+  padding: 0;
+}
+.sp-checkin-out{
+  display: inline;
+  font-size: 90%;
+  background-color: #fff;
+  padding: 1% 2%;
+}
+.sp-time{
+  display: inline;
+  letter-spacing: 2px;
+}
+.sp-li-text{
+  font-size: 60%;
+}
+
+.room-01{
+  position: relative;
+  top: 50px;
+  width: 100%;
+  overflow: hidden;
+  padding: 6% 0 3% 0;
+  background-color: #f7f7f7;
+}
+
+.contents-title{
+  position: absolute;
+  top: 50px;
+  right: 40%;
+  z-index: 98;
+  width: 18%;
+}
+.inner-box{
+  background: url('../images/contents01-back2.png') no-repeat left top;
+  background-size: cover;
+  z-index: 1;
+  padding: 36% 2% 2%;
+}
+.box{
+  width: 92%;
+  padding: 0 4% 4% 4%;
+}
+
+.box h3{
+  font-size: 100%;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  font-weight: bold;
+  padding: 4% 0;
+  border-bottom: 1px solid #b2dfdb;
+}
+.box p{
+  font-size: 70%;
+  line-height: 1.2;
+  font-weight: lighter;
+}
+.box span{
+  color: #b2dfdb;
+  padding: 0 1%;
+}
+
+.room-02{
+  position: relative;
+  top: 50px;
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 0;
+}
+.inner{
+  margin: 0 auto;
+  padding: 2% 2% 10%;
+}
+.room-img{
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  padding: 10% 0 30% 0;
+}
+.room-img p{
+  display: none;
+}
+.room-img img{
+  display: block;
+  width: 100%;
+  float: left;
+}
+.room-img span{
+  color: #b2dfdb;
+  padding: 0 2%;
+}
+.inner-box02{
+  position: relative;
+  padding: 30% 6% 5% 6%;
+}
+.inner-box02 img{
+  position: absolute;
+  width: 20%;
+  top: -7%;
+  right: 40%;
+}
+.inner-box02 ul{
+  display: block;
+  width: 50%;
+  float: left;
+  font-size: 90%;
+  padding: 0;
+  margin: 0;
+}
+.inner-box02 li{
+  list-style-type: none;
+  font-size: 80%;
+  font-weight: lighter;
+  margin-bottom: 12%;
+  padding-right: 4%;
+}
+.inner-box02 span{
+  color: #b2dfdb;
+  padding: 0 1%;
+  display: inline;
+}
+.inner-box02 p{
+  font-size: 60%;
+  font-weight: lighter;
+  display: block;
+  width: 100%;
+  padding-left: 2%;
+  overflow: hidden;
+}
+
+
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="keywords" content="イーフビーチ,ダイビング,シュノーケル,マリンスポーツ,ホテル,宿,ビジネス,宿泊,観光,久米島,旅行,旅,海,リゾート">
+<meta name="description" content="イーフビーチから徒歩１分の便利なホテル。ダイビングのロングステイ、ビジネス、観光で人気の施設です。周辺には飲食店も充実した、便利な施設です。" >
+<meta name="robots" content="noindex,nofollow">
+<title>イーフビーチまで徒歩１分の宿 - ホテルマリンテラス久米島</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/header_footer.css">
+<link rel="stylesheet" href="./css/header_footer_sp.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/style_sp.css">
+<link rel="stylesheet" href="./css/vegas.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+<!-- raindrop -->
+<script src="./js/raindrops.js" type="text/javascript"></script>
+<script>
+$(function() {
+    $('#nami').raindrops({
+      waveLength: 100,    // 波の起点とその波及先になる要素の数を指定できます。デフォルトは340。
+        canvasWidth: 0,     // canvasの横幅の指定になります。rightPaddingとの合計がcanvasの全幅になります。デフォルトは100%です。
+        canvasHeight: 0,    // canvasの高さです。デフォルトは50%
+        color: '#b2dfdb',   // canvasの水面下のカラーを指定できます。デフォルトは#00aeef
+        frequency: 0.5,       // 波紋の発生頻度を設定できます。デフォルトは3です。
+        waveHeight: 75 ,   // 波の高さを指定できます。デフォルトは100
+        density: 0.001,      // 波の密度を指定できます。波紋の影響度合いのような感じです。デフォルトは0,02
+        rippleSpeed:  0.01,  // 波紋の速度を指定できます。デフォルトは0.1
+        rightPadding: 20,    // 右のパディングを設定できます。
+        position:'absolute', //ポジションの設定ができます。
+        positionBottom:0, // CSSのbottomの設定ができます。
+        positionLeft:0 // CSSのLeftの設定ができます。
+      })
+    });
+</script>
+
+
+
+<!-- header footer 共通化 -->
+<script>
+function writeHeader(rootDir){
+	$.ajax({
+		url: rootDir + "header.html",
+		cache: false,
+		async: false,
+		success: function(html){
+			html = html.replace(/\{\$root\}/g, rootDir);
+			document.write(html);
+		}
+	});
+}
+</script>
+<script>
+function writeFooter(rootDir){
+	$.ajax({
+		url: rootDir + "footer.html",
+		cache: false,
+		async: false,
+		success: function(html){
+			html = html.replace(/\{\$root\}/g, rootDir);
+			document.write(html);
+		}
+	});
+}
+</script>
+
+
+
+<!--[if !(lte IE 7)]><!-->
+<script src="./js/vegas.js"></script>
+<!--<![endif]-->
+
+<!-- morphing -->
+<script src="./js/jquery.morphing.js"></script>
+<script>
+$(function(){
+    $('.js-morphing').morphing({
+        numVert: 8, //円の粒度
+        spring: 0.005,  //バネ運動の動作数値
+        friction: 0.9, //摩擦運動の動作数値
+        radius: 150, //Canvasの表示半径
+        fps: 100
+    });
+});
+</script>
+<script>
+$(function(){
+    $('.sp-js-morphing').morphing({
+        numVert: 8, //円の粒度
+        spring: 0.005,  //バネ運動の動作数値
+        friction: 0.9, //摩擦運動の動作数値
+        radius: 130, //Canvasの表示半径
+        fps: 100
+    });
+});
+</script>
+
+<!-- sp menu -->
+<script>
+$(function($) {
+    WindowHeight = $(window).height();
+    $('.drawr').css('height', WindowHeight); //メニューをWindowの高さいっぱいにする
+    $(document).ready(function() {
+        $('.op-cl').click(function(){ //クリックしたら
+            $('.drawr').animate({width:'toggle'}); //animateで表示・非表示
+        });
+    });
+});
+</script>
+
+
+<!--[if lt IE 10]>
+<script src="./js/html5.js"></script>
+<script src="./js/css3-mediaqueries.js"></script>
+<link rel="stylesheet" href="./css/style_ie.css">
+<link rel="stylesheet" href="./css/header_footer_ie.css">
+<![endif]-->
+
+<!--[if IE 7]>
+<link rel="stylesheet" href="./css/header_ie7.css">
+<link rel="stylesheet" href="./css/style_ie_7.css">
+<![endif]-->
+</head>
+
+
+<body>
+  <script type="text/javascript">
+    writeHeader("./"); //先述のサンプルからこの部分だけ変更しています
+  </script>
+
+  <!--[if !(lte IE 7)]><!-->
+  <script>
+  $('body').vegas({
+    overlay: true,
+    transition: 'flash',
+    loop: 'true',
+    transitionDuration: 1000,
+    delay: 10000,
+    animation: 'random',
+    animationDuration: 20000,
+    slides: [
+      { src: './images/top-back.jpg' },
+      { src: './images/top-back02.jpg' },
+      { src: './images/top-back01.jpg' },
+      { src: './images/top-back03.jpg' },
+    ]
+  });
+  </script>
+
+  <!--<![endif]-->
+
+  <main>
+    <div class="top">
+      <div class="topimg">
+        <img src="./images/top-logo.png" alt="自然が心を癒す場所久米島">
+      </div>
+    </div>
+
+    <div class="contents-01">
+      <img class="contents-title" src="./images/contents01-title.png" alt="久米島でできること">
+      <div class="innner-box">
+        <div class="box">
+          <div class="l-box">
+            <div class="l-side01">
+              <div class="js-morphing">
+                <img class="circle" src="./images/top_sp01.png" alt="マリンスポーツ">
+              </div>
+              <div class="sp-js-morphing">
+                <img class="circle" src="./images/top_sp01.png" alt=マリンスポーツ>
+              </div>
+                <img class="parts-01" src="./images/contents01-img01.png" alt="パーツ１">
+                <img class="parts-02" src="./images/contents01-img03.png" alt="パーツ２">
+            </div>
+            <div class="r-side01">
+             <h3>ダイビング、ウインドサーフィン、<br>どれにしようかな。</h3>
+             <p>日本の渚百選にも選ばれた「イーフビーチ」。<br>
+                波穏やかな遠浅のビーチはマリンスポーツの聖地とされている。<br>
+                また久米島沖に浮かぶ真っ白い砂だけのビーチ「ハテの浜」も一度は見ておく価値あり。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="r-box">
+            <div class="r-side02">
+              <div class="js-morphing">
+                <img class="circle" src="./images/top_sp02.png" alt="シーサー">
+              </div>
+              <div class="sp-js-morphing">
+                <img class="circle" src="./images/top_sp02.png" alt="シーサー">
+              </div>
+              <img class="parts-03" src="./images/contents01-img02.png" alt="パーツ３">
+              <img class="parts-04" src="./images/contents01-img04.png" alt="パーツ４">
+            </div>
+            <div class="l-side02">
+             <h3>赤瓦屋根の伝統的な沖縄家屋で<br>歴史を感じる。</h3>
+             <p>島の東に位置する上江洲家は1754年ごろに建てられた琉球王朝時代の士族の家で、国の重要指定文化財にも指定されている。<br>
+                青い空、赤瓦屋根、美しい琉球王朝士族の家でゆっくりとした時間を過ごしてみては。
+              </p>
+            </div>
+          </div>
+        </div><!-- box end -->
+      </div><!-- innner box end -->
+    </div>
+
+    <div class="contents-02">
+      <img src="./images/top_02.jpg" alt="ホテルマリンテラス久米島は日本の渚百選「イーフビーチ」まで徒歩１分。<br>
+        ダイビング向けの設備も充実しており、ロングステイも可能です。
+        島でただ一つの24時間営業コンビニエンスストアも隣接し、周辺には飲食店もございます。<br>
+        ビジネスに、観光に、皆さまのお越しをお待ちしています。">
+      <div class="sp-01">
+        <p>ホテルマリンテラス久米島は日本の渚百選「イーフビーチ」まで徒歩１分。<br>
+          ダイビング向けの設備も充実しており、ロングステイも可能です。<br>
+          島でただ一つの24時間営業コンビニエンスストアも隣接し、周辺には飲食店もございます。<br>
+          ビジネスに、観光に、皆さまのお越しをお待ちしています。</p>
+      </div>
+    </div>
+  </main>
+
+  <div id="nami">
+  </div>
+  <script type="text/javascript">
+    writeFooter("./"); //先述のサンプルからこの部分だけ変更しています
+  </script>
+
+
+</body>
+</html>
