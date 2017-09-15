@@ -5,6 +5,11 @@
 canvas{
   width: 100%;
 }
+
+.current{
+  border-right: 11px dotted #086A87;
+  }
+
 main{
   display: none;
 }

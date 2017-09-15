@@ -112,6 +112,20 @@ $(function($) {
 });
 </script>
 
+<!-- カレント -->
+
+<script>
+	$(function(){
+		$('#ham-menu li a').each(function(){
+			var $href = $(this).attr('href');
+			if(location.href.match($href)) {
+				$(this).parent('li').addClass('current');
+			} else {
+				$(this).parent('li').removeClass('current');
+			}
+		});
+	});
+</script>
 
 <!--[if lt IE 10]>
 <script src="./js/html5.js"></script>
@@ -208,10 +222,16 @@ $(function($) {
     </div>
 
     <div class="contents-02">
-      <img src="./images/top_02.jpg" alt="ホテルマリンテラス久米島は日本の渚百選「イーフビーチ」まで徒歩１分。<br>
+      <img src="./images/top_021.jpg" alt="ホテルマリンテラス久米島は日本の渚百選「イーフビーチ」まで徒歩１分。<br>
         ダイビング向けの設備も充実しており、ロングステイも可能です。
         島でただ一つの24時間営業コンビニエンスストアも隣接し、周辺には飲食店もございます。<br>
         ビジネスに、観光に、皆さまのお越しをお待ちしています。">
+        <div class="text"><p>ホテルマリンテラス久米島は日本の渚<br>百選「イーフビーチ」まで徒歩１分。<br>
+          ダイビング向けの設備も充実しており、<br>ロングステイも可能です。<br>
+          <br>
+          島でただ一つの<span class="tcy">24</span>時間営業コンビニエ<br>ンスストアも隣接し、周辺には飲食店<br>もございます。<br>
+          ビジネスに、観光に、皆さまのお越し<br>をお待ちしています。<p></div>
+
       <div class="sp-01">
         <p>ホテルマリンテラス久米島は日本の渚百選「イーフビーチ」まで徒歩１分。<br>
           ダイビング向けの設備も充実しており、ロングステイも可能です。<br>

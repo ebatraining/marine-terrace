@@ -14,6 +14,11 @@ img{
 a{
   text-decoration: none;
 }
+
+li .access{
+  height:52px;
+}
+
 .tategaki{
   writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
@@ -94,12 +99,6 @@ a{
   color: #01788a;
   letter-spacing: 2px;
 }
-#header .reserv{
-  padding: 2px;
-  border: 1px solid #01788a;
-}
-
-
 
 .footer{
   position: relative;

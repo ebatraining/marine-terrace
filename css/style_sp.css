@@ -129,5 +129,8 @@
   padding: 10% 0 0;
 }
 
+.text p{
+  display:none;
+}
 
 }

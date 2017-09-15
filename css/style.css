@@ -2,6 +2,10 @@
 
 @media screen and (min-width:768px){
 
+.current{
+    	border-right: 3px dotted #086A87;
+    }
+
 /* sp  js */
 
 .sp-01{
@@ -127,12 +131,37 @@
 .circle{
   width: 95%;
 }
+
 .contents-02{
   position: relative;
   top: 100px;
   overflow: hidden;
   width: 100%;
 }
+
+.tcy {
+  -webkit-text-combine: horizontal;
+  -ms-text-combine-horizontal: all;
+  text-combine-upright: all;
+}
+
+.contents-02 p {
+  font-family: Lato,"游ゴシック Medium", "游ゴシック体","Noto Sans JP", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  -webkit-text-orientation: upright;
+  -ms-text-orientation: upright;
+  text-orientation: upright;
+  position: absolute;/*絶対配置*/
+  color:#0CA6AB;/*文字は白に*/
+  font-weight: bold; /*太字に*/
+  font-size: 2em;
+  top:23%;
+  right:1%;
+  line-height:220%;
+  }
+
 .contents-02 img{
   width: 100%;
   padding: 10% 0;

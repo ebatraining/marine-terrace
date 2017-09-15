@@ -1,6 +1,10 @@
 @charset "UTF-8";
 @media screen and (min-width:768px){
 
+.current{
+    	border-right: 3px dotted #086A87;
+    }
+
 /* sp  js */
 #nami{
   display: none;
