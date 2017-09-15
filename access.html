@@ -133,9 +133,9 @@ $(function($) {
 		$('#ham-menu li a').each(function(){
 			var $href = $(this).attr('href');
 			if(location.href.match($href)) {
-				$(this).parent('li').addClass('current');
+				$(this).addClass('current');
 			} else {
-				$(this).parent('li').removeClass('current');
+				$(this).removeClass('current');
 			}
 		});
 	});

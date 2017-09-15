@@ -7,7 +7,8 @@ canvas{
 }
 
 .current{
-  	border-right: 11px dotted #086A87;
+  color:#ffffff !important;
+  background:#01788a;
   }
 
 main{

@@ -2,13 +2,14 @@
 
 @media screen and (min-width:768px){
 
-.current{
-  	border-right: 11px dotted #086A87;
-  }
-
 /* js hover */
 main{
   display: none;
+}
+
+.current{
+  color:#ffffff !important;
+  background:#01788a;
 }
 
 .textbox li a:hover{
@@ -93,7 +94,6 @@ main{
   width: 80%;
   padding-top: 7%;
 }
-
 
 
 .access-02{

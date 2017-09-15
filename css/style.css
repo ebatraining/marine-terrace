@@ -156,10 +156,11 @@
   position: absolute;/*絶対配置*/
   color:#0CA6AB;/*文字は白に*/
   font-weight: bold; /*太字に*/
-  font-size: 2em;
-  top:23%;
-  right:1%;
-  line-height:220%;
+  font-size:1.5vw;
+  top:25%;
+  right:4%;
+  line-height:2.2;
+  margin:0 auto;
   }
 
 .contents-02 img{
