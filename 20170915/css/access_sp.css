@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@media screen and (max-width:767px){
+
+/* js hover */
+main{
+  display: none;
+}
+
+.textbox li a:hover{
+  opacity: 0.8;
+}
+
+.js-morphing{
+  display: none;
+}
+.sp-js-morphing{
+  display: block;
+  width: 280px;
+  margin: 0 auto;
+}
+.sp-js-morphing img{
+  width: 280px;
+  height: 280px;
+}
+
+
+
+
+.access-01{
+  position: relative;
+  top: 50px;
+  width: 100%;
+  overflow: hidden;
+  padding: 6% 0 3% 0;
+  background-color: #f7f7f7;
+}
+
+.contents-title{
+  position: absolute;
+  top: 50px;
+  right: 46%;
+  z-index: 98;
+  width: 8%;
+}
+.inner-box{
+  padding: 46% 2% 2%;
+  background: url('../images/contents01-back2.png') no-repeat left top;
+  background-size: cover;
+  z-index: 1;
+  overflow: hidden;
+}
+.box{
+  width: 92%;
+  padding: 0 4% 4% 4%;
+}
+.text_01{
+  width: 100%;
+  border: 1px solid #01788a;
+  padding: 2% 0;
+  letter-spacing: 10px;
+}
+.l-text{
+  width: 45%;
+  float: left;
+  display: block;
+  border: 1px solid #b2dfdb;
+  padding: 2%;
+  font-size: 80%;
+}
+.r-text{
+  width: 45%;
+  float: right;
+  display: block;
+  border: 1px solid #b2dfdb;
+  padding: 2%;
+  font-size: 80%;
+}
+
+.text_02{
+  clear: both;
+  background-color: #01788a;
+  color: #fff;
+  padding: 2% 0;
+  letter-spacing: 4px;
+}
+
+.box img{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+.access-02{
+  position: relative;
+  top: 50px;
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 0;
+}
+.inner{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2% 2% 10%;
+  overflow: hidden;
+}
+.textbox{
+  padding: 4% 0;
+  font-size: 70%;
+  line-height: 1.4;
+  width: 80%;
+  margin: 0 auto;
+  z-index: 98;
+}
+.textbox ul{
+  padding: 0;
+}
+.textbox li{
+  list-style-type: none;
+  padding: 1% 0;
+}
+.textbox p{
+  font-size: 90%;
+  line-height: 1.4;
+  font-weight: lighter;
+}
+.textbox  li a{
+  display: inline;
+}
+.textbox a{
+  color: #01788a;
+}
+.li-title{
+  font-size: 180%;
+  margin-bottom: 5%;
+}
+iframe{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+}

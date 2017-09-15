@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+@media screen and (max-width:767px){
+body{
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: 游ゴシック体, "Yu Gothic", YuGothic, helvetica, arial, "ヒラギノ角ゴ Pro W5", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 16px;
+  color: #01788a;
+}
+img{
+  border-style: none;
+}
+a{
+  text-decoration: none;
+  display: block;
+}
+
+
+
+
+
+/* hover */
+.home:hover{
+  opacity: 0.8;
+}
+.map:hover{
+  color: #fff;
+  background-color: #01788a;
+}
+.r-inline a:hover{
+  opacity: 0.8;
+}
+
+/* js */
+#nami{
+  width: 100%;
+  height: 60px;
+}
+
+#header{
+  width: 100%;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+.home{
+  display: block;
+  width: 50%;
+  padding: 0 2%;
+}
+.home img{
+  width: 100%;
+}
+
+/* pc */
+#ham-menu{
+  display: none;
+}
+
+.drawr-bt {
+  display: block;
+  width:35px;
+  height: 35px;
+  position: fixed;
+  top:20px;
+  right:20px;
+  cursor: pointer;
+  z-index: 7777;
+}
+
+.drawr {
+  display: none;
+  background-color:rgba(255,255,255,1);
+  position: fixed;
+  top: 0px;
+  right:0;
+  width:220px;
+  padding:0px 0 20px 0px;
+  z-index: 8888;
+  box-shadow: 0 0 4px #ccc;
+}
+
+#d-menu li {
+  width:220px;
+  list-style: none;
+  box-shadow: 0 1px 2px #ccc;
+}
+
+#d-menu li a {
+  color: #01788a;
+  display: block;
+  padding: 15px;
+  background: #f7f9fb none repeat scroll 0 0;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition-duration: .3s;
+}
+#d-menu li a:hover{
+  transition-duration: .3s;
+  background: #01788a;
+  color:#fff;
+}
+.close-bt{
+  display: block;
+  width:39px;
+  height: 39px;
+  line-height: 39px;
+  cursor: pointer;
+  z-index: 9999;
+  font-size: 39px;
+  padding: 6px;
+  margin-bottom: 10px;
+  background:#f7f9fb;
+  box-shadow: 0 1px 2px #ccc;
+  text-align: center;
+}
+
+footer{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  top: -5px;
+  background-color: #b2dfdb;
+}
+.l-footer{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+.r-footer{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+.r-footer a{
+  color: #01788a;
+}
+
+.f-title{
+  font-size: 150%;
+}
+.l-footer p img{
+  display: inline;
+  vertical-align: middle;
+}
+.inline{
+  display: block;
+  vertical-align: middle;
+  margin: 4% 0;
+  line-height: 1;
+  font-size: 90%;
+}
+.inline img{
+  width: 8%;
+}
+.inline a{
+  display: none;
+}
+.contact{
+  display: none;
+  font-size: 80%;
+  letter-spacing: 1.4px;
+  display: inline-block;
+}
+.map{
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+.tel{
+  font-size: 230%;
+  letter-spacing: 4px;
+  margin: 0;
+}
+.r-inline{
+  display: inline-block;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+.r-inline img{
+  vertical-align: middle;
+  width: 10%;
+}
+.r-inline a{
+  color: #01788a;
+  font-size: 100%;
+  letter-spacing: 1.4px;
+  line-height: 2;
+}
+.m-footer img{
+  display: block;
+  width: 30%;
+  float: right;
+}
+small{
+  display: block;
+  padding-top: 3%;
+  font-size: 60%;
+  color: #fff;
+  letter-spacing: 1.6px;
+}
+}

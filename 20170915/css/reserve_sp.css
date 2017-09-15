@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+@media screen and (max-width:767px){
+
+/* js hover */
+main{
+  display: none;
+}
+
+.inner-box a:hover{
+  color: #fff;
+  background-color: #01788a;
+  border: 1px solid #01788a;
+}
+.reserv a:hover{
+  color: #01788a;
+  background-color: #fff;
+  border: 1px solid #01788a;
+}
+.text-box a:hover{
+  opacity: 0.6;
+}
+
+
+.js-morphing{
+  display: none;
+}
+.sp-js-morphing{
+  display: block;
+  width: 280px;
+  margin: 0 auto;
+}
+.sp-js-morphing img{
+  width: 280px;
+  height: 280px;
+}
+
+
+.res-01{
+  position: relative;
+  top: 50px;
+  width: 100%;
+  overflow: hidden;
+  padding: 6% 0 3% 0;
+  background-color: #f7f7f7;
+}
+
+.contents-title{
+  position: absolute;
+  top: 50px;
+  right: 46%;
+  z-index: 98;
+  width: 8%;
+}
+.inner-box{
+  padding: 38% 2% 2%;
+  background: url('../images/contents01-back2.png') no-repeat left top;
+  background-size: cover;
+  z-index: 1;
+  overflow: hidden;
+}
+.inner-box a{
+  transition: all  0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.circle{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  margin: 0 auto;
+}
+.box{
+  width: 92%;
+  padding: 4%;
+}
+.box p{
+  font-size: 70%;
+  line-height: 1.4;
+  font-weight: lighter;
+}
+.box span{
+  color: #b2dfdb;
+  padding: 0 1%;
+}
+.box a{
+  text-align: center;
+  border: 1px solid #b2dfdb;
+  color: #b2dfdb;
+  padding: 2%;
+  margin-bottom: 4%;
+  line-height: 2;
+}
+.reserv a{
+  background-color: #01788a;
+  color: #fff;
+  border: 1px solid #01788a;
+}
+.to-link{
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+  font-size: 100%;
+}
+
+.res-02{
+  position: relative;
+  top: 50px;
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 0;
+}
+.inner{
+  padding: 2% 2% 10%;
+  overflow: hidden;
+}
+.text-box{
+  overflow: hidden;
+  margin-top: 10%;
+  background: url('../images/contents01-back2.png') no-repeat left top;
+  background-size: cover;
+  padding: 5%;
+}
+.text-box h3{
+  font-size: 150%;
+}
+.text-box p{
+  padding-bottom: 2%;
+  border-bottom: 1px solid #b2dfdb;
+  font-size: 60%;
+}
+.text-box img{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.text-box ul{
+  width: 100%;
+  display: block;
+  padding: 0;
+}
+.text-box li{
+  list-style-type: none;
+  display: inline;
+  font-size: 100%;
+}
+.li-title{
+  padding: 0.5% 2%;
+  border: 1px solid #01788a;
+  line-height: 2;
+  letter-spacing: 0;
+  text-align: center;
+}
+.number{
+  padding-left: 4%;
+  letter-spacing: 5px;
+}
+.number a{
+  display: inline;
+  letter-spacing: 5px;
+  color: #01788a;
+}
+.caution{
+  font-size: 60%;
+}
+.caution span{
+  color: #b2dfdb;
+  padding: 0 1%;
+}
+
+}

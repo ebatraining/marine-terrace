@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="keywords" content="イーフビーチ,ダイビング,シュノーケル,マリンスポーツ,ホテル,宿,ビジネス,宿泊,観光,久米島,旅行,旅,海,リゾート">
+<meta name="description" content="イーフビーチから徒歩１分の便利なホテル。ダイビングのロングステイ、ビジネス、観光で人気の施設です。周辺には飲食店も充実した、便利な施設です。" >
+<meta name="robots" content="noindex,nofollow">
+<title>お客様の声 - ホテルマリンテラス久米島</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/header_footer.css">
+<link rel="stylesheet" href="./css/voice.css">
+<link rel="stylesheet" href="./css/header_footer_sp.css">
+<link rel="stylesheet" href="./css/voice_sp.css">
+<link rel="stylesheet" href="./css/vegas.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+<script src="./js/raindrops.js" type="text/javascript"></script>
+<script>
+$(function() {
+    $('#nami').raindrops({
+      waveLength: 100,    // 波の起点とその波及先になる要素の数を指定できます。デフォルトは340。
+        canvasWidth: 0,     // canvasの横幅の指定になります。rightPaddingとの合計がcanvasの全幅になります。デフォルトは100%です。
+        canvasHeight: 0,    // canvasの高さです。デフォルトは50%
+        color: '#b2dfdb',   // canvasの水面下のカラーを指定できます。デフォルトは#00aeef
+        frequency: 0.5,       // 波紋の発生頻度を設定できます。デフォルトは3です。
+        waveHeight: 75 ,   // 波の高さを指定できます。デフォルトは100
+        density: 0.001,      // 波の密度を指定できます。波紋の影響度合いのような感じです。デフォルトは0,02
+        rippleSpeed:  0.01,  // 波紋の速度を指定できます。デフォルトは0.1
+        rightPadding: 20,    // 右のパディングを設定できます。
+        position:'absolute', //ポジションの設定ができます。
+        positionBottom:0, // CSSのbottomの設定ができます。
+        positionLeft:0 // CSSのLeftの設定ができます。
+})
+});
+</script>
+
+<!-- fade -->
+<script>
+$(document).ready(function() {
+$('main').fadeIn(1000);
+});
+</script>
+
+<!-- header footer 共通化 -->
+<script>
+function writeHeader(rootDir){
+	$.ajax({
+		url: rootDir + "header.html",
+		cache: false,
+		async: false,
+		success: function(html){
+			html = html.replace(/\{\$root\}/g, rootDir);
+			document.write(html);
+		}
+	});
+}
+</script>
+<script>
+function writeFooter(rootDir){
+	$.ajax({
+		url: rootDir + "footer.html",
+		cache: false,
+		async: false,
+		success: function(html){
+			html = html.replace(/\{\$root\}/g, rootDir);
+			document.write(html);
+		}
+	});
+}
+</script>
+
+<!--[if !(lte IE 7)]><!-->
+<script src="./js/vegas.js"></script>
+<!--<![endif]-->
+
+<!-- sp menu -->
+<script>
+$(function($) {
+    WindowHeight = $(window).height();
+    $('.drawr').css('height', WindowHeight); //メニューをWindowの高さいっぱいにする
+    $(document).ready(function() {
+        $('.op-cl').click(function(){ //クリックしたら
+            $('.drawr').animate({width:'toggle'}); //animateで表示・非表示
+        });
+    });
+});
+</script>
+
+
+
+<!--[if lt IE 10]>
+<script src="./js/html5.js"></script>
+<script src="./js/css3-mediaqueries.js"></script>
+<link rel="stylesheet" href="./css/voice_ie.css">
+<link rel="stylesheet" href="./css/header_footer_ie.css">
+<![endif]-->
+
+<!--[if IE 7]>
+<link rel="stylesheet" href="./css/header_ie7.css">
+<link rel="stylesheet" href="./css/voice_ie_7.css">
+<![endif]-->
+
+
+
+</head>
+
+<body>
+  <script type="text/javascript">
+    writeHeader("./"); //先述のサンプルからこの部分だけ変更しています
+  </script>
+
+  <!--[if !(lte IE 7)]><!-->
+  <script>
+  $('body').vegas({
+    overlay: true,
+    transition: 'flash',
+    loop: 'true',
+    transitionDuration: 1000,
+    delay: 10000,
+    animation: 'random',
+    animationDuration: 20000,
+    slides: [
+      { src: './images/top-back.jpg' },
+      { src: './images/top-back02.jpg' },
+      { src: './images/top-back01.jpg' },
+      { src: './images/top-back03.jpg' },
+    ]
+  });
+  </script>
+  <!--<![endif]-->
+
+  <main>
+    <div class="voice-01">
+      <div class="inner">
+        <div class="inner-box01">
+          <img src="./images/voice_01.png" alt="お客様の声">
+          <ul>
+            <li class="li-text">出張で利用しました。<br>
+            朝、海が眺められて気持ちよく過ごすことができました。</li>
+            <li class="detail">宿泊プラン : 朝食付きプラン</li>
+            <li class="detail">ご利用のお部屋 : シングル</li>
+          </ul>
+          <ul>
+            <li class="li-text">いつも仕事で利用させて貰ってます。<br>
+            立地的には海にも徒歩２分？で行け隣にはコンビニもあるのでかなり便利です。<br>
+            今回からインターネットが出来る部屋があったのでとても良かったので次回も利用したいと思います。</li>
+            <li class="detail">ご利用のお部屋 : シングル</li>
+          </ul>
+          <ul>
+            <li class="li-text">立地、サービス、居心地すべてが最高でした。また泊まりたいと思います。(えいちゃん6761さん / 30代 男性)</li>
+            <li class="detail">ご利用のお部屋 : ツイン</li>
+          </ul>
+          <ul>
+            <li class="li-text">チェックイン時間よりかなり前だったにも関わらず受け入れてくださったり、台風で急に日程を短縮することになっても快く対応してくださったりして、とても感じがよかったです。<br>
+            イーフビーチ近くの繁華街(？)の真ん中にあって、飲食店やコンビニが近くにあったので便利でした。<br>
+            次回久米島に行く機会があればまた利用したいと思いました。</li>
+            <li class="detail">ご利用のお部屋 : シングル</li>
+          </ul>
+          <ul>
+            <li class="li-text">・スタッフの皆さん親しみやすいし、対応がよかった。<br>
+            ・ビーチが近い。<br>
+            ・コンビニが近い。<br>
+            ・レンタカー屋さんも近い。<br>
+            以下の残念な点は「言いがかり」に近いですが、、、<br>
+            ・蛇口をひねってからお湯になるまでの時間が長い〜。<br>
+            ・フェリー乗り場への送迎があると助かるんですが〜。<br>
+            これを考慮に入れても最高でした。</li>
+            <li class="detail">ご利用のお部屋 :シングル</li>
+          </ul>
+          <a href="http://travel.rakuten.co.jp/HOTEL/38070/review.html">もっと見る&#9661;</a>
+        </div>
+      </div>
+    </main>
+
+    <div id="nami">
+    </div>
+    <script type="text/javascript">
+      writeFooter("./"); //先述のサンプルからこの部分だけ変更しています
+    </script>
+
+  </body>
+  </html>

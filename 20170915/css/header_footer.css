@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px){
+body{
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: 游ゴシック体, "Yu Gothic", YuGothic, helvetica, arial, "ヒラギノ角ゴ Pro W5", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 16px;
+  color: #01788a;
+}
+img{
+  border-style: none;
+}
+a{
+  text-decoration: none;
+}
+.tategaki{
+  writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode:vertical-rl;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+  line-height: 1.5;
+}
+
+/* hover */
+#header .tategaki:hover{
+  background-color: #01788a;
+  color: #fff;
+}
+.home:hover{
+  opacity: 0.8;
+}
+.map:hover{
+  color: #fff;
+  background-color: #01788a;
+}
+.r-inline a:hover{
+  opacity: 0.8;
+}
+
+/* js */
+#nami{
+  width: 100%;
+  height: 60px;
+  top: 40px;
+}
+
+/* sp */
+.sp-menu{
+  display: none;
+}
+
+#header{
+  width: 100%;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+.home{
+  width: 20%;
+  float: left;
+  display: block;
+  margin-left: 6%;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+.home img{
+  width: 100%;
+}
+#header ul{
+  float: right;
+  padding: 0 40px;
+  margin: 0 2% 0 0;
+  background: url('../images/header-menu.png') no-repeat center top;
+  background-size: 100% 50%;
+}
+#header li{
+  height: 100px;
+  float: right;
+  list-style-type: none;
+  vertical-align: top;
+  font-family: ryo-text-plusn, 游明朝, "Yu Mincho", 游明朝体, YuMincho, "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", HiraMinProN-W3, HGS明朝E, "ＭＳ Ｐ明朝", "MS PMincho", serif;
+  margin: 4% 23px 0 23px;
+  font-size: 93%;
+  font-weight: bold;
+}
+#header .tategaki{
+  color: #01788a;
+  letter-spacing: 2px;
+}
+
+.footer{
+  position: relative;
+  top: 30px;
+  overflow: hidden;
+  width: 100%;
+  background-color: #b2dfdb;
+  padding: 4% 0;
+}
+.m-footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.m-footer img{
+  width: 100%;
+}
+.l-footer{
+  display: block;
+  float: left;
+  padding-left: 8%;
+  padding-bottom: 3%;
+}
+.r-footer{
+  display: block;
+  width: 44%;
+  float: left;
+  padding-left: 8%;
+}
+.r-footer p{
+  margin: 0;
+}
+.r-footer a{
+  margin: 3% 0;
+  color: #01788a;
+}
+
+.f-title p{
+  font-size: 240%;
+  padding-bottom: 2%;
+  border-bottom: 1px solid #fff;
+  font-weight: 500;
+}
+.l-footer p img{
+  display: inline;
+  vertical-align: middle;
+}
+.inline{
+  display: inline;
+  vertical-align: middle;
+  margin-right: 2%;
+  line-height: 2;
+  font-size: 100%;
+}
+.inline img{
+  width: 6%;
+}
+.inline a{
+  display: inline;
+  font-size: 80%;
+  border: 1px solid #fff;
+  width: 10%;
+  color: #fff;
+  padding: 2px;
+}
+.contact{
+  font-size: 100%;
+  letter-spacing: 1.4px;
+  padding: 2%;
+}
+.map{
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+.tel{
+  font-size: 320%;
+  letter-spacing: 4px;
+  margin: 0;
+  display: block;
+  font-weight: 500;
+}
+.r-inline{
+  display: inline;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+.r-inline img{
+  vertical-align: middle;
+  width: 4%;
+}
+.r-inline p{
+  color: #01788a;
+  font-size: 130%;
+  letter-spacing: 1.4px;
+}
+.r-inline a{
+  display: block;
+  margin: 3% 0;
+}
+small{
+  display: block;
+  padding-top: 3%;
+  font-size: 80%;
+  color: #fff;
+  letter-spacing: 1.6px;
+}
+}
