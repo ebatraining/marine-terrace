@@ -15,8 +15,9 @@ a{
   text-decoration: none;
 }
 .tategaki{
+	writing-mode: tb-rl;
+	
 }
-
 /* hover */
 .tategaki:hover{
   color: #b2dfdb;
