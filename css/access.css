@@ -152,6 +152,9 @@ iframe{
 .text{
 	min-height: 100px;
 	min-width: 100px;
+	margin-top: 15px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 .airport-use 
 {
