@@ -165,7 +165,10 @@ iframe{
 	letter-spacing: 3px;
 	font-weight: bolder;
 	height: 30px;
-	padding-top: 5px;
+	padding-top: 10px;
+	background-image: url(../images/sozai_cman_jp_20171121114528.png);
+	background-repeat: no-repeat;
+	background-position: 30% 50%;
 }
 .move{
 	margin-left: 5%;
