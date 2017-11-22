@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 320px) and (min-width: 1020px) {
+@media screen and (min-width: 768px)   {
 
 /* js hover */
 main{
