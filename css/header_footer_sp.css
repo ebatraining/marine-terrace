@@ -28,8 +28,14 @@ a{
   color: #fff;
   background-color: #01788a;
 }
-.r-inline a:hover{
-  opacity: 0.8;
+
+.tel:hover,
+.mail:hover {
+  background-image: linear-gradient(#05FBFF, #0072ff);
+}
+
+.hotelguide:hover {
+ opacity: 0.8;
 }
 
 /* js */
@@ -49,10 +55,10 @@ a{
 .home{
   display: block;
   width: 50%;
-  padding: 0 2%;
+  padding: 2% 3%;
 }
 .home img{
-  width: 100%;
+  width: 38%;
 }
 
 /* pc */
@@ -123,83 +129,138 @@ footer{
   overflow: hidden;
   width: 100%;
   top: -5px;
-  background-color: #b2dfdb;
-}
-.l-footer{
-  display: block;
-  width: 90%;
-  margin: 0 auto;
-}
-.r-footer{
-  display: block;
-  width: 90%;
-  margin: 0 auto;
-}
-.r-footer a{
-  color: #01788a;
+  background-image: linear-gradient(#05FBFF, #0072ff);
 }
 
-.f-title{
-  font-size: 150%;
+.footer p {
+ color: #fff;
 }
-.l-footer p img{
-  display: inline;
-  vertical-align: middle;
+
+.footer-wrapper {
+  width: 90%;
+  margin: auto;
 }
-.inline{
-  display: block;
-  vertical-align: middle;
-  margin: 4% 0;
-  line-height: 1;
-  font-size: 90%;
+
+.r-footer{
+  margin-bottom: 12%;
 }
-.inline img{
-  width: 8%;
-}
-.inline a{
-  display: none;
-}
-.contact{
-  display: none;
-  font-size: 80%;
-  letter-spacing: 1.4px;
-  display: inline-block;
-}
-.map{
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all  0.3s ease;
-}
-.tel{
-  font-size: 230%;
-  letter-spacing: 4px;
-  margin: 0;
-}
-.r-inline{
-  display: inline-block;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all  0.3s ease;
-}
-.r-inline img{
-  vertical-align: middle;
-  width: 10%;
-}
-.r-inline a{
-  color: #01788a;
+
+.r-contact{
+  margin: 2% 3% 0 0;
   font-size: 100%;
   letter-spacing: 1.4px;
+  padding-bottom: 1%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.r-inline{
+  margin: 1% 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.tel,
+.mail {
+  color: #fff;
+  font-size: 177%;
+  letter-spacing: 4px;
+  display: block;
+  padding: 0.5% 2%;
   line-height: 2;
+  border: 1px solid #fff;
+  margin: ;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
 }
-.m-footer img{
-  display: block;
-  width: 30%;
-  float: right;
+
+.mail {
+  letter-spacing: 1px;
 }
-small{
+
+.r-inline img {
+  vertical-align: middle;
+  text-align: left;
+  width: 8%;
+  margin-right: 4%;
+}
+
+.hotelguide {
+  letter-spacing: 1px;
+  margin-top: 3%;
+}
+
+.hotelguide img {
+  width: 70%;
+}
+
+
+.l-footer {
+  display: inline;
+  text-align: center;
+}
+
+.l-logo {
   display: block;
-  padding-top: 3%;
+  width: 35%;
+  vertical-align: top;
+  margin: auto;
+}
+
+.l-logo img {
+  width: 80%;
+  margin: auto;
+}
+
+.l-access {
+  border-left: none;
+  margin: 2%;
   font-size: 60%;
+}
+
+.name {
+  font-size: 185%;
+  border-top: 1px solid #fff;
+  padding-top: 2%;
+  margin-bottom: 0;
+}
+
+.address {
+  font-size: 70%;
+}
+
+.l-inline {
+  display: block;
+  width: 100%;
+  font-size: 100%;
+}
+
+.l-inline img{
+  display: inline;
+  vertical-align: middle;
+  width: 3%;
+}
+
+.map{
+  display: inline;
+  font-size: 100%;
+  border: 1px solid #fff;
+  width: 20%;
+  color: #fff;
+  padding: 6px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+
+
+.copy {
+text-align: center;
+}
+
+small {
+  font-size: 80%;
   color: #fff;
   letter-spacing: 1.6px;
 }
